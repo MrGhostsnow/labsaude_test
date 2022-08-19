@@ -1,4 +1,5 @@
 import Button from '../../components/Button/Button'
+import CardsMotivos from '../../components/CardsMotivos/CardsMotivos'
 import FormEnvio from '../../components/FormEnvio/FormEnvio'
 import './Empresas.css'
 
@@ -23,6 +24,7 @@ function Empresas() {
             </section>
             <img src="./assets/images/banner-left-image.svg" alt="" />
         </div>
+        <CardsMotivos/>
     </div>
   )
 }
