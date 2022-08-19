@@ -1,0 +1,85 @@
+.sectionCardBeneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionCardBeneficios h3{
+    color: rgb(66, 79, 255);
+}
+
+.sectionCardBeneficios h1{
+    margin-bottom: 1.4em;
+}
+
+.containerCardBeneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 38em;
+}
+
+.group2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    height: 38em;
+}
+
+.cardBeneficio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12em;
+    width: 60%;
+}
+
+.cardBeneficio2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -4em;
+    width: 60%;
+}
+
+.cardBeneficio2 h4{
+    width: 45%;
+}
+
+.cardBeneficio h4{
+    width: 45%;
+}
+
+.cardBeneficio2 img{
+    display: flex;
+    width: 20%;
+    margin-left: 1em;
+}
+
+.cardBeneficio2 p{
+    width: 75%;
+}
+
+.cardBeneficio img{
+    display: flex;
+    width: 20%;
+    margin-left: 1em;
+}
+
+.textoeImagem{
+    display: flex;
+}
+
+
+
+.imgCardBeneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

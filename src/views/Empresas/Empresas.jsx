@@ -1,4 +1,5 @@
 import Button from '../../components/Button/Button'
+import CardBeneficios from '../../components/CardBeneficios/CardBeneficios'
 import CardsMotivos from '../../components/CardsMotivos/CardsMotivos'
 import ComoFunciona from '../../components/ComoFunciona/ComoFunciona'
 import FormEnvio from '../../components/FormEnvio/FormEnvio'
@@ -32,7 +33,11 @@ function Empresas() {
         titulo2='Sua equipe é atendida com conforto'
         texto1='Dessa forma a empresa paga por uso, e ajuda os custos de saúde da equipe com profissionais de alta qualidade.'
         texto2='Sem filas e com bom atendimento, a Lab Saúde se propõe a conectar seus colaboradores com seu máximo bem estar direto do celular.'/>
+        <CardBeneficios
+        h3='Um novo conceito de benefício'
+        h1='Para sua equipe cuidar da saúde:'/>
     </div>
+
   )
 }
 
