@@ -1,0 +1,8 @@
+.btn{
+    display: flex;
+    padding: 1em 1.9em;
+    border-radius: 0.8em;
+    border: none;
+    background-color: #434eff;
+    color: #fff;
+}
