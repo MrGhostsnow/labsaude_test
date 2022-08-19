@@ -1,0 +1,62 @@
+.containerPaginaTopo{
+    display: flex;
+}
+
+.containerPrimeiroTexto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    
+    border: 2px solid red;
+}
+
+.containerPrimeiroTexto h3{
+    color: rgb(66, 79, 255);
+    margin-bottom: 0.5em;
+    margin-left: 3em;
+}
+
+.containerPrimeiroTexto h1{
+    font-size: xx-large;
+    width: 90%;
+    margin-left: 1.5em;
+}
+
+.containerPrimeiroTexto p{
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 80%;
+    font-size: large;
+    text-align: left;
+}
+
+.containerForm{
+    display: flex;
+    margin-top: 4em;
+    margin-left: 3em;
+    align-items: center;
+}
+
+.labelFormEnvio {
+    margin-bottom: 0.6em;
+}
+
+.inputFormEnvio{
+    width: 250px;
+    padding: 1em;
+    justify-content: baseline;
+    border-radius: 0.5em;
+}
+
+.btnFormEnvio{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.spanContainerPrimeiroTexto{
+    margin-top: 0.3em;
+    margin-left: 3em;
+    font-size: small;
+}
+
