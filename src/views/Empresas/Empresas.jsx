@@ -1,5 +1,6 @@
 import Button from '../../components/Button/Button'
 import CardsMotivos from '../../components/CardsMotivos/CardsMotivos'
+import ComoFunciona from '../../components/ComoFunciona/ComoFunciona'
 import FormEnvio from '../../components/FormEnvio/FormEnvio'
 import './Empresas.css'
 
@@ -25,6 +26,12 @@ function Empresas() {
             <img src="./assets/images/banner-left-image.svg" alt="" />
         </div>
         <CardsMotivos/>
+        <ComoFunciona
+        h1='Com a Lab Saúde, sua empresa:'
+        titulo1='Define o percentual de cooparticipação'
+        titulo2='Sua equipe é atendida com conforto'
+        texto1='Dessa forma a empresa paga por uso, e ajuda os custos de saúde da equipe com profissionais de alta qualidade.'
+        texto2='Sem filas e com bom atendimento, a Lab Saúde se propõe a conectar seus colaboradores com seu máximo bem estar direto do celular.'/>
     </div>
   )
 }
