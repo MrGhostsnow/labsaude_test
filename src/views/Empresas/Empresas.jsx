@@ -5,6 +5,8 @@ import ComoFunciona from '../../components/ComoFunciona/ComoFunciona'
 import FormEnvio from '../../components/FormEnvio/FormEnvio'
 import  {BsFillCheckCircleFill} from 'react-icons/bs'
 import './Empresas.css'
+import Parceiros from '../../components/Parceiros/Parceiros'
+import DadosSaude from '../../components/DadosSaude/DadosSaude'
 
 function Empresas() {
   return (
@@ -65,6 +67,13 @@ function Empresas() {
             </div>
           </div>
         </section>
+        <Parceiros/>
+        <DadosSaude
+        h3='Como a saúde ajuda sua empresa'
+        h1='Os dados afirmam que bem-estar é fundamental para empresas'
+        primeiroitem='OMS - 94% das empresas que investem em bem-estar como benefício perceberam o aumento da produtividade;'
+        segundoitem='Marsh - 73% dos funcionários desejam ter um aplicativo para achar profissionais de saúde onde e quando quiser;'
+        terceiroitem='Marsh - 74% dos gestores acreditam que benefícios de saúde digital ajudam com a retenção de funcionários;'/>
     </div>
 
   )
