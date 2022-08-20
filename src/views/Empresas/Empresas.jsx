@@ -3,6 +3,7 @@ import CardBeneficios from '../../components/CardBeneficios/CardBeneficios'
 import CardsMotivos from '../../components/CardsMotivos/CardsMotivos'
 import ComoFunciona from '../../components/ComoFunciona/ComoFunciona'
 import FormEnvio from '../../components/FormEnvio/FormEnvio'
+import  {BsFillCheckCircleFill} from 'react-icons/bs'
 import './Empresas.css'
 
 function Empresas() {
@@ -36,6 +37,34 @@ function Empresas() {
         <CardBeneficios
         h3='Um novo conceito de benefício'
         h1='Para sua equipe cuidar da saúde:'/>
+        <section className='containerBeneficios'>
+          <h3>Benefício que cabe no seu bolso</h3>
+          <h1>A lab Saúde foi feita para sua empresa</h1>
+          <p className='textocontainerBeneficios'>Nós vivemos na pele a dificuldade de atrair, reter e manter feliz uma boa equipe. Por isso, a Lab Saúde foi feita para empresas  em crescimento, que precisam da melhor equipe com orçamento enxuto.</p>
+          <Button className='btn'>
+            Receber contato
+          </Button>
+          <div className='grupoBeneficios'>
+            <div className='grupo1Beneficios'>
+              <BsFillCheckCircleFill className='check'/>
+              <span>01</span>
+              <h3>Primeiro mês gratuito</h3>
+              <p>Implemente a Lab Saúde em horas e teste com sua equipe os benefícios do bem estar.</p>
+            </div>
+            <div className='grupo1Beneficios'>
+              <BsFillCheckCircleFill className='check'/>
+              <span>02</span>
+              <h3>Você escolhe a cooparticipação</h3>
+              <p>De 0% a 100%, você escolhe como deseja ajudar o time. Diferente de planos de saúde, na Lab você só paga quando realmente precisa.</p>
+            </div>
+            <div className='grupo1Beneficios'>
+              <BsFillCheckCircleFill className='check'/>
+              <span>03</span>
+              <h3>Aumente sua rentabilidade</h3>
+              <p>Diminua custos de seleção, contratação e turnover retendo sua equipe com a Lab Saúde.</p>
+            </div>
+          </div>
+        </section>
     </div>
 
   )
