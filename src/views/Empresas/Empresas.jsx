@@ -74,6 +74,25 @@ function Empresas() {
         primeiroitem='OMS - 94% das empresas que investem em bem-estar como benefício perceberam o aumento da produtividade;'
         segundoitem='Marsh - 73% dos funcionários desejam ter um aplicativo para achar profissionais de saúde onde e quando quiser;'
         terceiroitem='Marsh - 74% dos gestores acreditam que benefícios de saúde digital ajudam com a retenção de funcionários;'/>
+        <section className='containerFormTel'>
+          <div className='internoFormTel'>
+            <img src="./assets/images/lab_logo.svg" alt="logo lab saúde" />
+            <h3>Estamos aqui para sua empresa</h3>
+            <h1>Entenda se a Lab Saúde pode te ajudar, sem compromisso</h1>
+            <p>Solicite uma ligação do nosso time de sucesso do cliente</p>
+            <div className='formTel'>
+              <FormEnvio
+              classNameLabel='labelFormEnvio'
+              classNameInput='inputFormEnvio'
+              label='Seu telefone:'
+              placeholder='(xx)xxxxx-xxxx'/>
+              <Button className='btn btnFormEnvio'>
+                Receber contato
+              </Button>
+            </div>
+            <span>Você é funcionário? Indique sua empresa acima! O resto é com a gente</span>
+          </div>
+        </section>
     </div>
 
   )
