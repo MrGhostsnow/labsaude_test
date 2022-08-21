@@ -1,0 +1,178 @@
+.containerPaginaTopo{
+    display: flex;
+}
+
+.containerPrimeiroTexto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.containerPrimeiroTexto h3{
+    color: rgb(66, 79, 255);
+    margin-bottom: 0.5em;
+    margin-left: 3em;
+}
+
+.containerPrimeiroTexto h1{
+    font-size: xx-large;
+    width: 90%;
+    margin-left: 1.5em;
+}
+
+.containerPrimeiroTexto p{
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 80%;
+    font-size: large;
+    text-align: left;
+}
+
+.containerForm{
+    display: flex;
+    margin-top: 4em;
+    margin-left: 3em;
+    align-items: center;
+}
+
+.labelFormEnvio {
+    margin-bottom: 0.6em;
+}
+
+.inputFormEnvio{
+    width: 250px;
+    padding: 1em;
+    justify-content: baseline;
+    border-radius: 0.5em;
+}
+
+.btnFormEnvio{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.spanContainerPrimeiroTexto{
+    margin-top: 0.3em;
+    margin-left: 3em;
+    font-size: small;
+}
+
+.containerBeneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.containerBeneficios h3{
+    color: rgb(66, 79, 255);
+}
+
+.containerBeneficios h1{
+    font-size: 2em;
+}
+
+.textocontainerBeneficios{
+    width: 40%;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: larger;
+}
+
+.grupoBeneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 8em;
+}
+
+.grupo1Beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo1Beneficios span{
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+    font-weight: 980;
+    background-color: gainsboro;
+    color: hsl(236, 100%, 63%);
+    text-align: center;
+    line-height: 100px;
+}
+
+.check{
+    font-size: xx-large;
+    color: green;
+    position: relative;
+    top: 1em;   
+    right: -1.2em;
+}
+
+.grupo1Beneficios h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.grupo1Beneficios p{
+    width: 70%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.containerFormTel{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+    padding: 2em 0;
+    border-radius: 0.5em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.internoFormTel{
+    margin-left: 17em;
+}
+
+.containerFormTel img{
+    width: 5%;
+}
+
+.containerFormTel h3{
+    color: rgb(66, 79, 255);
+}
+
+.containerFormTel h1{
+    font-size: 2em;
+    width: 40%;
+    margin: 1em 0 1em 0;
+}
+
+.containerFormTel span{
+    font-size: small;
+}
+
+.formTel{
+    display: flex;
+    width: 50%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.btnFormTel{
+    display: flex;
+}

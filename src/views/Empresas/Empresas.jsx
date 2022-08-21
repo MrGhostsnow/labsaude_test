@@ -27,7 +27,7 @@ function Empresas() {
                 </div>
                 <span className='spanContainerPrimeiroTexto'>Você é funcionário? Indique sua empresa acima! O resto é com a gente</span>
             </section>
-            <img src="./assets/images/banner-left-image.svg" alt="" />
+            <img src="../assets/images/banner-left-image.svg" alt="" />
         </div>
         <CardsMotivos/>
         <ComoFunciona
@@ -69,6 +69,10 @@ function Empresas() {
         </section>
         <Parceiros/>
         <DadosSaude
+        legend1='Atraia a melhor equipe'
+        legend2='Aumente a felicidade'
+        legend3='Melhore o bem estar'
+        legend4='Com profissionais certos'
         h3='Como a saúde ajuda sua empresa'
         h1='Os dados afirmam que bem-estar é fundamental para empresas'
         primeiroitem='OMS - 94% das empresas que investem em bem-estar como benefício perceberam o aumento da produtividade;'
@@ -76,7 +80,7 @@ function Empresas() {
         terceiroitem='Marsh - 74% dos gestores acreditam que benefícios de saúde digital ajudam com a retenção de funcionários;'/>
         <section className='containerFormTel'>
           <div className='internoFormTel'>
-            <img src="./assets/images/lab_logo.svg" alt="logo lab saúde" />
+            <img src="../assets/images/lab_logo.svg" alt="logo lab saúde" />
             <h3>Estamos aqui para sua empresa</h3>
             <h1>Entenda se a Lab Saúde pode te ajudar, sem compromisso</h1>
             <p>Solicite uma ligação do nosso time de sucesso do cliente</p>

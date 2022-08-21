@@ -7,27 +7,27 @@ function Parceiros() {
         <h1>Uma rede de parceiros com descontos</h1>
         <div className='containerImgParceiros'>
             <div className='cardParceiros'>
-                <img src="./assets/images/system_logo.svg" alt="logo system" />
+                <img src="../assets/images/system_logo.svg" alt="logo system" />
                 <legend>System Saúde</legend>
             </div>
             <div className='cardParceiros'>
-                <img src="./assets/images/clin_logo.svg" alt="logo clin" />
+                <img src="../assets/images/clin_logo.svg" alt="logo clin" />
                 <legend> Clin Odonto Digital</legend>
             </div>
             <div className='cardParceiros'>
-                <img src="./assets/images/liv_up_logo.svg" alt="logo liv up" />
+                <img src="../assets/images/liv_up_logo.svg" alt="logo liv up" />
                 <legend>Liv Up</legend>
             </div>
             <div className='cardParceiros'>
-                <img src="./assets/images/amazon_logo.svg" alt="logo amazon" />
+                <img src="../assets/images/amazon_logo.svg" alt="logo amazon" />
                 <legend>Amazon</legend>
             </div>
             <div className='cardParceiros'>
-                <img src="./assets/images/netshoes_logo.svg" alt="logo netshoes" />
+                <img src="../assets/images/netshoes_logo.svg" alt="logo netshoes" />
                 <legend>Netshoes</legend>
             </div>
             <div className='cardParceiros'>
-                <img src="./assets/images/drogasil_logo.svg" alt="logo drogasil" />
+                <img src="../assets/images/drogasil_logo.svg" alt="logo drogasil" />
                 <legend>Farmácias Drogasil</legend>
             </div>
         </div>

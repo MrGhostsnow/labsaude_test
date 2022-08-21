@@ -18,8 +18,16 @@
     margin-bottom: 2em;
     height: 25em;
     padding: 4em;
-    border-radius: 1em 2em;
-    background-color: rgb(66, 79, 255);
+    border-radius: 1em;
+    background-color:hsla(236,100%,63%,1);
+    background-image:
+    radial-gradient(at 40% 20%, hsla(231,65%,58%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(224,91%,36%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(217,61%,35%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(231,54%,29%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(222,50%,28%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(241,63%,35%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(237,65%,17%,1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     animation: pulse 2s infinite;
 }
@@ -64,15 +72,18 @@
     align-content: center;
     border: 1px solid black;
     border-radius: 0.5em;
+    background-color: rgb(243, 240, 240);
 }
 
 .cardMotivo p{
     font-size: larger;
     padding: 0.5em;
+    color: rgb(0, 0, 0);
 }
 
 .icon{
     display: flex;
     font-size: 3.5em;
     margin-right: 0.5em;
+    color: rgb(0, 0, 0);
 }

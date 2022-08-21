@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
         <div className='containerFooter'>
-            <img src="./assets/images/logo_lab_footer.svg" alt="logo lab saúde" />
+            <img src="../assets/images/logo_lab_footer.svg" alt="logo lab saúde" />
             <BsInstagram className='iconFooter'/>
         </div>
         <div className='infoFooter'>

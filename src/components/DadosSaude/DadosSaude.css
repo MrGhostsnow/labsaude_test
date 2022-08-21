@@ -43,7 +43,10 @@
 }
 
 .cardDadosSaude legend{
+    display: flex;
+    text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    width: 50%;
 }
 

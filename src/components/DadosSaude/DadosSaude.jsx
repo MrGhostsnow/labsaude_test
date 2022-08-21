@@ -12,20 +12,20 @@ function DadosSaude(props) {
         </ul>
         <div className='containerImgDadosSaude'>
             <div className='cardDadosSaude'>
-                <img src="./assets/images/best_team_image.webp" alt="grupo de pessoas" />
-                <legend>Atraia a melhor equipe</legend>
+                <img src="../assets/images/best_team_image.webp" alt="grupo de pessoas" />
+                <legend>{props.legend1}</legend>
             </div>
             <div className='cardDadosSaude'>
-            <img src="./assets/images/happiness_image.webp" alt="pessoa sorrindo" />
-                <legend>Aumente a felicidade</legend>
+            <img src="../assets/images/happiness_image.webp" alt="pessoa sorrindo" />
+                <legend>{props.legend2}</legend>
             </div>
             <div className='cardDadosSaude'>
-            <img src="./assets/images/well_being_image.webp" alt="pessoa meditando" />
-                <legend>Melhore o bem estar</legend>
+            <img src="../assets/images/well_being_image.webp" alt="pessoa meditando" />
+                <legend>{props.legend3}</legend>
             </div>
             <div className='cardDadosSaude'>
-            <img src="./assets/images/professional_image.webp" alt="médico" />
-                <legend>Com profissionais certos</legend>
+            <img src="../assets/images/professional_image.webp" alt="médico" />
+                <legend>{props.legend4}</legend>
             </div>
         </div>
     </div>
