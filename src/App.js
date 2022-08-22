@@ -4,14 +4,16 @@ import NavBar from './components/NavBar/NavBar';
 import Empresas from './views/Empresas/Empresas';
 import { Routes, Route } from "react-router-dom";
 import Usuarios from './views/Usuarios/Usuarios';
+import Profissionais from './views/Profissionais/Profissionais';
 
 function App() {
   return (
     <>
     <NavBar/>
     <Routes>
-    <Route path='/empresas' element={<Empresas/>}/>
+    <Route path='/' element={<Empresas/>}/>
     <Route path='/usuarios' element={<Usuarios/>}/>
+    <Route path='/profissionais' element={<Profissionais/>}/>
     </Routes>
     <Footer/>
     </>

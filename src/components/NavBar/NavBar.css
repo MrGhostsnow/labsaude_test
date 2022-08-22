@@ -25,10 +25,19 @@
     margin: 0 19em 0 18em;
 }
 
-.navBar li{
+.btnNaoSelecionado{
     display: flex;
     text-decoration: none;
-    
+    color: black;
+}
+
+.btnSelecionado{
+    color: rgb(66, 79, 255);
+    text-decoration: none;
+}
+
+.navBar a {
+    text-decoration: none;
 }
 
 .btnNavBar {

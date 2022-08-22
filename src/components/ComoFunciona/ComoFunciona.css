@@ -37,6 +37,7 @@
     color: #fff;
     text-align: center;
     line-height: 100px;
+    box-shadow: inset -10px -10px 10px rgba(46, 46, 44, 0.664), inset 3px 3px 5px #FFF;
 }
 
 .textoPassoaPasso{

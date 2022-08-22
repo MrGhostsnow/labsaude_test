@@ -1,0 +1,92 @@
+.containerServiços {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 5em;
+    padding: 4em;
+}
+
+.containerbtnsServiço{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+.containerCardsServiços{
+    display: flex;
+}
+
+.containerComoUsar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.grupoCardsComoUsar{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.cardComoUsar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: rgba(148, 193, 245, 0.541);
+    width: 30%;
+    border-radius: 2em;
+}
+
+.cardComoUsar h3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.containerDadosSaudeProfissionais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border: 8px solid;
+    padding: 1em;
+    border-image: linear-gradient(to left, rgb(66, 79, 255), rgb(155, 187, 39)) 1 0;
+}
+
+.containerDadosSaudeProfissionais h3{
+    color: rgb(66, 79, 255);
+}
+
+.containerDadosSaudeProfissionais h1{
+    font-size: xx-large;
+}
+
+.containerDadosSaudeProfissionais span{
+    font-size: large;
+}
+
+.containerDadosSaudeProfissionais img{
+    width: 60em;
+}
+
+.containerDadosSaudeProfissionais legend{
+    margin-top: -6em;
+    font-size: x-large;
+}
+
+.btnClicado{
+    margin-left: 2em;
+    margin-top: 2em;
+    color: black;
+}
