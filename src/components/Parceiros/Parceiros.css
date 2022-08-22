@@ -18,6 +18,15 @@
     gap: 3em;
 }
 
+@media screen and (max-width: 800px){
+    .containerImgParceiros{
+        flex-direction: column;
+    }
+    .containerParceiros h1{
+        text-align: center;
+    }
+}
+
 .cardParceiros{
     display: flex;
     flex-direction: column;

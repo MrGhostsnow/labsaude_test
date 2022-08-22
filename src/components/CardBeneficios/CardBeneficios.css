@@ -5,6 +5,16 @@
     align-items: center;
 }
 
+@media screen and (max-width: 800px){
+    .sectionCardBeneficios{
+        margin-bottom: 5em;
+        height: 87em;
+    }
+    .sectionCardBeneficios h1{
+        text-align: center;
+    }
+}
+
 .sectionCardBeneficios h3{
     color: rgb(66, 79, 255);
 }
@@ -32,6 +42,12 @@
     align-items: center;
     width: 34%;
     height: 38em;
+}
+
+@media screen and (max-width: 800px){
+    .group2{
+        width: auto;
+    }
 }
 
 .cardBeneficio{
@@ -76,10 +92,22 @@
     display: flex;
 }
 
+@media screen and (max-width: 800px){
+    .textoeImagem img{
+        display: none;
+    }
+}
+
 
 
 .imgCardBeneficios{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .imgCardBeneficios{
+        display: none;
+    }
 }

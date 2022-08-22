@@ -12,11 +12,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    max-width: 80%;
     margin-top:  0.6em;
     margin-left: 9em;
     margin-bottom: 2em;
-    height: 25em;
+    min-height: 25em;
     padding: 4em;
     border-radius: 1em;
     background-color:hsla(236,100%,63%,1);
@@ -30,6 +30,19 @@
     radial-gradient(at 0% 0%, hsla(237,65%,17%,1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     animation: pulse 2s infinite;
+}
+@media screen and (max-width: 800px){
+  .containerCardsMotivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60em;
+    margin: 0 0 0 4em;
+  }
+  .titulo{
+    text-align: center;
+  }
 }
 
 .pulse:hover {
@@ -73,6 +86,14 @@
     border: 1px solid black;
     border-radius: 0.5em;
     background-color: rgb(243, 240, 240);
+}
+
+@media screen and (max-width: 800px){
+  .cardMotivo{
+    justify-content: center;
+    margin-left: -2em;
+    width: 15em;
+  }
 }
 
 .cardMotivo p{

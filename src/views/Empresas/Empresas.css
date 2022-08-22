@@ -2,38 +2,89 @@
     display: flex;
 }
 
+@media screen and (max-width: 800px) {
+    .containerPaginaTopo {
+        justify-content: center;
+        align-items: center;
+      flex-direction: column;
+    }
+  } 
+
 .containerPrimeiroTexto{
     display: flex;
     justify-content: center;
+    
     flex-direction: column;
-    width: 60%;
+    max-width: 60%;
+    min-width: 30%;
 }
 
+.tituloContainerPrimeiroTexto{
+    font-size: 25px;
+    width: 90%;
+    margin-left: 1.5em;
+}
 .containerPrimeiroTexto h3{
     color: rgb(66, 79, 255);
     margin-bottom: 0.5em;
     margin-left: 3em;
 }
 
-.containerPrimeiroTexto h1{
-    font-size: xx-large;
-    width: 90%;
-    margin-left: 1.5em;
-}
+
 
 .containerPrimeiroTexto p{
     margin-top: 2em;
     margin-left: 3em;
     width: 80%;
     font-size: large;
-    text-align: left;
 }
+
+@media screen and (max-width: 800px) {
+    .containerPrimeiroTexto {
+        align-items: center;
+        width: 80%;
+    }
+    .containerPrimeiroTexto h3{
+        margin-top: 1em;
+        font-size: small;
+        text-align: center;
+        margin: 2em 0 2em 0;
+    }
+    .tituloContainerPrimeiroTexto{
+        font-size: 18px;
+        text-align: center;
+        margin: 0 0 2em 0;
+        width: 350px;
+    }
+    .containerPrimeiroTexto p{
+        display: flex;
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+    .containerPaginaTopo img{
+        justify-content: center;
+        align-items: center;
+        margin-left: 4em;
+        width: 80%;
+    }
+  } 
+
+
 
 .containerForm{
     display: flex;
     margin-top: 4em;
     margin-left: 3em;
     align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .containerForm{
+        flex-direction: column;
+    }
 }
 
 .labelFormEnvio {
@@ -58,6 +109,12 @@
     font-size: small;
 }
 
+@media screen and (max-width: 800px){
+    .btnFormEnvio{
+        margin: 1em 0 0 0;
+    }
+}
+
 .containerBeneficios{
     display: flex;
     flex-direction: column;
@@ -65,6 +122,15 @@
     align-items: center;
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+@media screen and (max-width: 800px){
+    .containerBeneficios{
+        width: auto;
+    }
+    .containerBeneficios h1{
+        text-align: center;
+    }
 }
 
 .containerBeneficios h3{
@@ -82,6 +148,11 @@
     text-align: center;
     font-size: larger;
 }
+@media screen and (max-width: 800px){
+    .textocontainerBeneficios{
+        width: auto;
+    }
+}
 
 .grupoBeneficios{
     display: flex;
@@ -89,6 +160,12 @@
     justify-content: center;
     width: 80%;
     margin-top: 8em;
+}
+
+@media screen and (max-width: 800px){
+    .grupoBeneficios{
+        flex-direction: column;
+    }
 }
 
 .grupo1Beneficios{
@@ -148,6 +225,26 @@
     margin-left: 17em;
 }
 
+@media screen and (max-width: 800px){
+    .containerFormTel{
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .internoFormTel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0em;
+    }
+}
+
+
+
 .containerFormTel img{
     width: 5%;
 }
@@ -155,12 +252,31 @@
 .containerFormTel h3{
     color: rgb(66, 79, 255);
 }
-
 .containerFormTel h1{
-    font-size: 2em;
+    font-size: 25px;
     width: 40%;
     margin: 1em 0 1em 0;
 }
+
+@media screen and (max-width: 800px){
+    .containerFormTel h3{
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;   
+    }
+    .containerFormTel h1{
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 0 0 0;
+    }
+}
+
+
 
 .containerFormTel span{
     font-size: small;
@@ -175,4 +291,15 @@
 
 .btnFormTel{
     display: flex;
+}
+
+@media screen and (max-width: 800px){
+    .formTel{
+        flex-direction: column;
+    }
+    .btnFormTel{
+        justify-content: center;
+        align-items: center;
+        
+    }
 }

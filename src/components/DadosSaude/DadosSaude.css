@@ -7,6 +7,19 @@
     margin-bottom: 5em;
 }
 
+@media screen and (max-width: 800px){
+    .containerDadosSaude h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .containerDadosSaude h3{
+        font-size: 15px;
+    }
+    .containerDadosSaude li{
+        font-size: 15px;
+    }
+}
+
 .containerDadosSaude h3{
     color: rgb(66, 79, 255);
     margin-bottom: 1em;
@@ -17,7 +30,6 @@
 }
 
 .containerDadosSaude li{
-    font-size: large;
     margin-bottom: 0.8em;
 }
 
@@ -27,6 +39,14 @@
     align-items: center;
     gap: 3em;
     margin-top: 3em;
+}
+
+@media screen and (max-width: 800px){
+    .containerImgDadosSaude{
+        display: flex;
+        flex-direction: column;
+        columns: 2;
+    }
 }
 
 .cardDadosSaude{
