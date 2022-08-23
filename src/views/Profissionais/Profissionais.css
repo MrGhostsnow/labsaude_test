@@ -1,3 +1,10 @@
+.HomePage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .containerServiços {
   display: flex;
   flex-direction: column;
@@ -136,5 +143,20 @@
   }
   .containerComoUsar {
     text-align: center;
+  }
+  .containerDadosSaudeProfissionais{
+    width: 70%;
+    text-align: center;
+  }
+  .containerDadosSaudeProfissionais h1{
+    margin: 1em 0 1em 0;
+  }
+  .containerDadosSaudeProfissionais img{
+    width: 850px;
+    margin-right: -2em;
+    margin-bottom: 1em;
+  }
+  .containerDadosSaudeProfissionais legend{
+    margin-bottom: 1em;
   }
 }

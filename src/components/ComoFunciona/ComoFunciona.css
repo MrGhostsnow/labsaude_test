@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 8em 0 10em 14em;
+  margin: 8em 0 10em 0em;
 }
 
 .containerComoFunciona h3 {
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 920px) {
   .containerComoFunciona {
-    margin: 2em 0 2em 5em;
+    margin: 2em 0 2em 0em;
   }
   .containerComoFunciona h1 {
     text-align: center;

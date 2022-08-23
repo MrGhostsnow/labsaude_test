@@ -51,7 +51,7 @@ function Profissionais() {
   };
 
   return (
-    <div>
+    <div className="HomePage">
       <div className="containerPaginaTopo">
         <section className="containerPrimeiroTexto">
           <h3>Trabalha com consultas e agendamentos?</h3>

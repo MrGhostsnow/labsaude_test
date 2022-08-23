@@ -10,7 +10,7 @@ import DadosSaude from "../../components/DadosSaude/DadosSaude";
 
 function Empresas() {
   return (
-    <div>
+    <div className="HomePage">
       <div className="containerPaginaTopo">
         <section className="containerPrimeiroTexto">
           <h3>O futuro da saúde no seu bolso</h3>
