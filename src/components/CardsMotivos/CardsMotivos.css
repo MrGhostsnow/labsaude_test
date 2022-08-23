@@ -1,110 +1,114 @@
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
 }
 
-.containerCardsMotivos{
-    display: flexbox;
-    flex-flow: column;
-    columns: 3;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-    margin-top:  0.6em;
-    margin-left: 9em;
-    margin-bottom: 2em;
-    min-height: 25em;
-    padding: 4em;
-    border-radius: 1em;
-    background-color:hsla(236,100%,63%,1);
-    background-image:
-    radial-gradient(at 40% 20%, hsla(231,65%,58%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 0%, hsla(224,91%,36%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 50%, hsla(217,61%,35%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 50%, hsla(231,54%,29%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(222,50%,28%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(241,63%,35%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(237,65%,17%,1) 0px, transparent 50%);
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    animation: pulse 2s infinite;
+.containerCardsMotivos {
+  display: flexbox;
+  flex-flow: column;
+  columns: 3;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-top: 0.6em;
+  margin-left: 9em;
+  margin-bottom: 2em;
+  min-height: 25em;
+  padding: 4em;
+  border-radius: 1em;
+  background-color: hsla(236, 100%, 63%, 1);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(231, 65%, 58%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(224, 91%, 36%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(217, 61%, 35%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(231, 54%, 29%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(222, 50%, 28%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(241, 63%, 35%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(237, 65%, 17%, 1) 0px, transparent 50%);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  animation: pulse 2s infinite;
 }
-@media screen and (max-width: 920px){
-  .containerCardsMotivos{
+@media screen and (max-width: 920px) {
+  .containerCardsMotivos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 60em;
-    margin: 0 0 0 4em;
+    margin: 0 0 0 2.5em;
   }
-  .titulo{
+  .titulo {
     text-align: center;
   }
 }
 
 .pulse:hover {
-    animation: none;
-  }
-  
-  @-webkit-keyframes pulse {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgb(66, 79, 255);
-    }
-    70% {
-        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-    }
-    100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-    }
-  }
-  @keyframes pulse {
-    0% {
-      -moz-box-shadow: 0 0 0 0 rgb(66, 79, 255);
-      box-shadow: 0 0 0 0 rgb(66, 79, 255);
-    }
-    70% {
-        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-    }
-    100% {
-        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-    }
-  }
-
-.cardMotivo{
-    display: flex;
-    align-items: center;
-    width: 80%;
-    height: 3em;
-    padding: 3.5em 0;
-    margin-bottom: 2em;
-    align-content: center;
-    border: 1px solid black;
-    border-radius: 0.5em;
-    background-color: rgb(243, 240, 240);
+  animation: none;
 }
 
-@media screen and (max-width: 920px){
-  .cardMotivo{
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgb(66, 79, 255);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(66, 79, 255);
+    box-shadow: 0 0 0 0 rgb(66, 79, 255);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.cardMotivo {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 3em;
+  padding: 3.5em 0;
+  margin-bottom: 2em;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  background-color: rgb(243, 240, 240);
+}
+
+@media screen and (max-width: 920px) {
+  .cardMotivo {
     justify-content: center;
     margin-left: -2em;
     width: 15em;
   }
 }
 
-.cardMotivo p{
-    font-size: larger;
-    padding: 0.5em;
-    color: rgb(0, 0, 0);
+.cardMotivo p {
+  font-size: larger;
+  padding: 0.5em;
+  color: rgb(0, 0, 0);
 }
 
-.icon{
-    display: flex;
-    font-size: 3.5em;
-    margin-right: 0.5em;
-    color: rgb(0, 0, 0);
+.icon {
+  display: flex;
+  font-size: 3.5em;
+  margin-right: 0.5em;
+  color: rgb(0, 0, 0);
 }

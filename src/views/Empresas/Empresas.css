@@ -1,304 +1,297 @@
-.containerPaginaTopo{
-    display: flex;
+.containerPaginaTopo {
+  display: flex;
 }
 
 @media screen and (max-width: 920px) {
-    .containerPaginaTopo {
-        justify-content: center;
-        align-items: center;
-      flex-direction: column;
-    }
-  } 
-
-.containerPrimeiroTexto{
-    display: flex;
+  .containerPaginaTopo {
     justify-content: center;
-    
+    align-items: center;
     flex-direction: column;
-    max-width: 60%;
-    min-width: 30%;
+  }
 }
 
-.tituloContainerPrimeiroTexto{
-    font-size: 25px;
-    width: 90%;
-    margin-left: 1.5em;
-}
-.containerPrimeiroTexto h3{
-    color: rgb(66, 79, 255);
-    margin-bottom: 0.5em;
-    margin-left: 3em;
+.containerPrimeiroTexto {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  max-width: 60%;
+  min-width: 30%;
 }
 
+.tituloContainerPrimeiroTexto {
+  font-size: 25px;
+  width: 90%;
+  margin-left: 1.5em;
+}
+.containerPrimeiroTexto h3 {
+  color: rgb(66, 79, 255);
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+}
 
-
-.containerPrimeiroTexto p{
-    margin-top: 2em;
-    margin-left: 3em;
-    width: 80%;
-    font-size: large;
+.containerPrimeiroTexto p {
+  margin-top: 2em;
+  margin-left: 3em;
+  width: 80%;
+  font-size: large;
 }
 
 @media screen and (max-width: 920px) {
-    .containerPrimeiroTexto {
-        align-items: center;
-        width: 80%;
-    }
-    .containerPrimeiroTexto h3{
-        margin-top: 1em;
-        font-size: small;
-        text-align: center;
-        margin: 2em 0 2em 0;
-    }
-    .tituloContainerPrimeiroTexto{
-        font-size: 18px;
-        text-align: center;
-        margin: 0 0 2em 0;
-        width: 350px;
-    }
-    .containerPrimeiroTexto p{
-        display: flex;
-        width: 350px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0;
-    }
-    .containerPaginaTopo img{
-        justify-content: center;
-        align-items: center;
-        margin-left: 4em;
-        width: 80%;
-    }
-  } 
-
-
-
-.containerForm{
-    display: flex;
-    margin-top: 4em;
-    margin-left: 3em;
+  .containerPrimeiroTexto {
     align-items: center;
+    width: 80%;
+  }
+  .containerPrimeiroTexto h3 {
+    margin-top: 1em;
+    font-size: small;
+    text-align: center;
+    margin: 2em 0 2em 0;
+  }
+  .tituloContainerPrimeiroTexto {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 2em 0;
+    width: 350px;
+  }
+  .containerPrimeiroTexto p {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  .containerPaginaTopo img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5em;
+    width: 70%;
+  }
 }
 
-@media screen and (max-width: 920px){
-    .containerForm{
-        flex-direction: column;
-    }
+.containerForm {
+  display: flex;
+  margin-top: 4em;
+  margin-left: 3em;
+  align-items: center;
+}
+
+@media screen and (max-width: 920px) {
+  .containerForm {
+    flex-direction: column;
+  }
 }
 
 .labelFormEnvio {
-    margin-bottom: 0.6em;
+  margin-bottom: 0.6em;
 }
 
-.inputFormEnvio{
-    width: 250px;
-    padding: 1em;
-    justify-content: baseline;
-    border-radius: 0.5em;
+.inputFormEnvio {
+  width: 250px;
+  padding: 1em;
+  justify-content: baseline;
+  border-radius: 0.5em;
 }
 
-.btnFormEnvio{
-    margin-left: 2em;
-    margin-top: 2em;
+.btnFormEnvio {
+  margin-left: 2em;
+  margin-top: 2em;
 }
 
-.spanContainerPrimeiroTexto{
-    margin-top: 0.3em;
-    margin-left: 3em;
-    font-size: small;
+.spanContainerPrimeiroTexto {
+  margin-top: 0.3em;
+  margin-left: 3em;
+  font-size: small;
 }
 
-@media screen and (max-width: 920px){
-    .btnFormEnvio{
-        margin: 1em 0 0 0;
-    }
+@media screen and (max-width: 920px) {
+  .btnFormEnvio {
+    margin: 1em 0 0 0;
+  }
 }
 
-.containerBeneficios{
+.containerBeneficios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+@media screen and (max-width: 920px) {
+  .containerBeneficios {
+    width: auto;
+  }
+  .containerBeneficios h1 {
+    text-align: center;
+  }
+}
+
+.containerBeneficios h3 {
+  color: rgb(66, 79, 255);
+}
+
+.containerBeneficios h1 {
+  font-size: 2em;
+}
+
+.textocontainerBeneficios {
+  width: 40%;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: larger;
+}
+@media screen and (max-width: 920px) {
+  .textocontainerBeneficios {
+    width: auto;
+  }
+}
+
+.grupoBeneficios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 8em;
+}
+
+@media screen and (max-width: 920px) {
+  .grupoBeneficios {
+    flex-direction: column;
+  }
+}
+
+.grupo1Beneficios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grupo1Beneficios span {
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  font-size: xx-large;
+  font-weight: 980;
+  background-color: gainsboro;
+  color: hsl(236, 100%, 63%);
+  text-align: center;
+  line-height: 100px;
+}
+
+.check {
+  font-size: xx-large;
+  color: green;
+  position: relative;
+  top: 1em;
+  right: -1.2em;
+}
+
+.grupo1Beneficios h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.grupo1Beneficios p {
+  width: 70%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.containerFormTel {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+  padding: 2em 0;
+  border-radius: 0.5em;
+  margin-left: 5em;
+  margin-bottom: 2em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.internoFormTel {
+  margin-left: 17em;
+}
+
+@media screen and (max-width: 920px) {
+  .containerFormTel {
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .internoFormTel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin: 0em;
+  }
 }
 
-@media screen and (max-width: 920px){
-    .containerBeneficios{
-        width: auto;
-    }
-    .containerBeneficios h1{
-        text-align: center;
-    }
+.containerFormTel img {
+  width: 5%;
 }
 
-.containerBeneficios h3{
-    color: rgb(66, 79, 255);
+.containerFormTel h3 {
+  color: rgb(66, 79, 255);
+}
+.containerFormTel h1 {
+  font-size: 25px;
+  width: 40%;
+  margin: 1em 0 1em 0;
 }
 
-.containerBeneficios h1{
-    font-size: 2em;
-}
-
-.textocontainerBeneficios{
-    width: 40%;
-    margin-top: 2.5em;
-    margin-bottom: 2em;
-    text-align: center;
-    font-size: larger;
-}
-@media screen and (max-width: 920px){
-    .textocontainerBeneficios{
-        width: auto;
-    }
-}
-
-.grupoBeneficios{
-    display: flex;
-    align-items: center;
+@media screen and (max-width: 920px) {
+  .containerFormTel h3 {
     justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .containerFormTel h1 {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    margin-top: 8em;
+    margin: 0 0 0 0;
+  }
 }
 
-@media screen and (max-width: 920px){
-    .grupoBeneficios{
-        flex-direction: column;
-    }
+.containerFormTel span {
+  font-size: small;
 }
 
-.grupo1Beneficios{
-    display: flex;
+.formTel {
+  display: flex;
+  width: 50%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.btnFormTel {
+  display: flex;
+}
+
+@media screen and (max-width: 920px) {
+  .formTel {
     flex-direction: column;
+  }
+  .btnFormTel {
     justify-content: center;
     align-items: center;
-}
-
-.grupo1Beneficios span{
-    border-radius: 50%;
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    font-size: xx-large;
-    font-weight: 980;
-    background-color: gainsboro;
-    color: hsl(236, 100%, 63%);
-    text-align: center;
-    line-height: 100px;
-}
-
-.check{
-    font-size: xx-large;
-    color: green;
-    position: relative;
-    top: 1em;   
-    right: -1.2em;
-}
-
-.grupo1Beneficios h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.5em;
-}
-
-.grupo1Beneficios p{
-    width: 70%;
-    text-align: center;
-    margin-top: 1em;
-}
-
-.containerFormTel{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 90%;
-    padding: 2em 0;
-    border-radius: 0.5em;
-    margin-left: 5em;
-    margin-bottom: 2em;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.internoFormTel{
-    margin-left: 17em;
-}
-
-@media screen and (max-width: 920px){
-    .containerFormTel{
-        width: auto;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    .internoFormTel{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0em;
-    }
-}
-
-
-
-.containerFormTel img{
-    width: 5%;
-}
-
-.containerFormTel h3{
-    color: rgb(66, 79, 255);
-}
-.containerFormTel h1{
-    font-size: 25px;
-    width: 40%;
-    margin: 1em 0 1em 0;
-}
-
-@media screen and (max-width: 920px){
-    .containerFormTel h3{
-        justify-content: center;
-        align-items: center; 
-        text-align: center;   
-    }
-    .containerFormTel h1{
-        display: flex;
-        font-size: 20px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        margin: 0 0 0 0;
-    }
-}
-
-
-
-.containerFormTel span{
-    font-size: small;
-}
-
-.formTel{
-    display: flex;
-    width: 50%;
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-
-.btnFormTel{
-    display: flex;
-}
-
-@media screen and (max-width: 920px){
-    .formTel{
-        flex-direction: column;
-    }
-    .btnFormTel{
-        justify-content: center;
-        align-items: center;
-        
-    }
+  }
 }

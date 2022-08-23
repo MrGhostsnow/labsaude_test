@@ -1,99 +1,97 @@
-.containerComoFunciona{
-    display: flex;
-    width: 70%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 8em 0 10em 14em;
+.containerComoFunciona {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8em 0 10em 14em;
 }
 
-
-
-
-.containerComoFunciona h3{
-    color:rgb(66, 79, 255);
+.containerComoFunciona h3 {
+  color: rgb(66, 79, 255);
 }
 
-@media screen and (max-width: 920px){
-    .containerComoFunciona{
-        margin: 2em 0 2em 5em;
-    }
-    .containerComoFunciona h1{
-        text-align: center;
-        width: 15em;
-        font-size: 1.8em;
-    }
-}
-
-.cardComoFunciona{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8em;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-
-@media screen and (max-width: 920px){
-    .cardComoFunciona{
-        flex-direction: column;
-        height: 50em;
-        text-align: center;
-    }
-}
-
-
-.passoapasso{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-}
-
-@media screen and (max-width: 920px){
-    .passoapasso{
-        flex-direction: column;
-        margin-top: 1em;
-    }
-}
-
-.passoapasso span{
-    border-radius: 50%;
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    margin-right: 1em;
-    font-size: xx-large;
-    background-color: rgb(66, 79, 255);
-    color: #fff;
+@media screen and (max-width: 920px) {
+  .containerComoFunciona {
+    margin: 2em 0 2em 5em;
+  }
+  .containerComoFunciona h1 {
     text-align: center;
-    line-height: 100px;
-    box-shadow: inset -10px -10px 10px rgba(46, 46, 44, 0.664), inset 3px 3px 5px #FFF;
+    width: 15em;
+    font-size: 1.8em;
+  }
 }
 
-@media screen and (max-width: 920px){
-    .passoapasso span{
-        margin: 0;
-    }
+.cardComoFunciona {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.textoPassoaPasso{
-    display: flex;
+@media screen and (max-width: 920px) {
+  .cardComoFunciona {
     flex-direction: column;
-    width: 70%;
+    height: 50em;
+    text-align: center;
+  }
 }
 
-.btnComoFunciona{
-    margin-top: 1.5em;
+.passoapasso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
 }
 
-@media screen and (max-width: 1280px){
-    .cardComoFunciona{
-        height: 48em;
-    }
-    .containerComoFunciona{
-        margin: 8em 5em 8em 5em;
-    }
-    .containerComoFunciona h1{
-        width: 10em;
-    }
+@media screen and (max-width: 920px) {
+  .passoapasso {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+}
+
+.passoapasso span {
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin-right: 1em;
+  font-size: xx-large;
+  background-color: rgb(66, 79, 255);
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: inset -10px -10px 10px rgba(46, 46, 44, 0.664),
+    inset 3px 3px 5px #fff;
+}
+
+@media screen and (max-width: 920px) {
+  .passoapasso span {
+    margin: 0;
+  }
+}
+
+.textoPassoaPasso {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.btnComoFunciona {
+  margin-top: 1.5em;
+}
+
+@media screen and (max-width: 1280px) {
+  .cardComoFunciona {
+    height: 48em;
+  }
+  .containerComoFunciona {
+    margin: 8em 5em 8em 3.5em;
+  }
+  .containerComoFunciona h1 {
+    width: 10em;
+  }
 }

@@ -1,62 +1,65 @@
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 15em;
-    gap: 35em;
-    background-color:hsla(236,100%,63%,1);
-    background-image:
-    radial-gradient(at 40% 20%, hsla(231,65%,58%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 0%, hsla(224,91%,36%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 50%, hsla(217,61%,35%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 50%, hsla(231,54%,29%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(222,50%,28%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(241,63%,35%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(237,65%,17%,1) 0px, transparent 50%);
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  gap: 35em;
+  background-color: hsla(236, 100%, 63%, 1);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(231, 65%, 58%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(224, 91%, 36%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(217, 61%, 35%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(231, 54%, 29%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(222, 50%, 28%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(241, 63%, 35%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(237, 65%, 17%, 1) 0px, transparent 50%);
 }
 
-.containerFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconFooter {
+  font-size: large;
+}
+
+.infoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.infoFooter h2 {
+  margin-bottom: 1em;
+}
+
+.infoFooter span {
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 920px) {
+  footer {
     flex-direction: column;
-}
-
-.iconFooter{
-   font-size: large;
-}
-
-.infoFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-}
-
-.infoFooter h2{
-    margin-bottom: 1em;
-}
-
-.infoFooter span{
-    margin-bottom: 0.5em;
-}
-
-@media screen and (max-width: 920px){
-    footer{
-        flex-direction: column;
-        width: auto;
-        gap: 0;
-        margin-top: 2em;
-    }
-    .containerFooter img{
-        width: 70%;
-    }
-    .infoFooter h2{
-        display: none;
-    }
-    .infoFooter span{
-        font-size: 12px;
-        margin-top: 2em;
-    }
+    width: auto;
+    gap: 0;
+    margin-top: 2em;
+  }
+  .containerFooter img {
+    width: 70%;
+  }
+  .infoFooter h2 {
+    display: none;
+  }
+  .infoFooter span {
+    font-size: 12px;
+    margin-top: 2em;
+  }
 }

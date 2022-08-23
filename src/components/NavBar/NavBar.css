@@ -1,65 +1,130 @@
-.navBar{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-@media screen and (max-width: 800px){
-    .navBar nav{
-        width: 50%;
-    }
+.navBar nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.navBar nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navBar img{
-    display: flex;
-    margin-left: -12em;
+.navBar img {
+  display: flex;
+  margin-left: -12em;
 }
 
 .navBar ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
-    margin: 0 19em 0 18em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  margin: 0 19em 0 18em;
 }
 
-.btnNaoSelecionado{
-    display: flex;
-    text-decoration: none;
-    color: black;
+@media screen and (max-width: 920px) {
+  .navBar nav {
+    width: 50%;
+  }
 }
 
-.btnSelecionado{
-    color: rgb(66, 79, 255);
-    text-decoration: none;
+.btnNaoSelecionado {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.btnSelecionado {
+  color: rgb(66, 79, 255);
+  text-decoration: none;
 }
 
 .navBar a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+Link {
+  text-decoration: none;
 }
 
 .btnNavBar {
-    display: flex;
-    align-items: center;
-    margin-right: -10em;
+  display: flex;
+  align-items: center;
+  margin-right: -10em;
 }
 
-@media screen and (max-width: 920px){
-    .btnNavBar{
-        display: none;
-    }
+@media screen and (max-width: 920px) {
+  .btnNavBar {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 1024px){
-    .btnNavBar{
-        margin-left: -12em;
-    }
+@media screen and (max-width: 1024px) {
+  .btnNavBar {
+    margin-left: -12em;
+  }
+}
+
+.hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 98px;
+  left: -18em;
+  background-color: rgba(255, 255, 255, 0.877);
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar ul {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
 }
