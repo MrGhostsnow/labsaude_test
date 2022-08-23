@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .formEnvio{
         flex-direction: row;
     }

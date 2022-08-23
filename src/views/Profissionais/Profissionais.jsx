@@ -59,7 +59,7 @@ function Profissionais() {
         <div className='containerPaginaTopo'>
             <section className='containerPrimeiroTexto'>
                 <h3>Trabalha com consultas e agendamentos?</h3>
-                <h1>Ganhe mais consultas e diminua o estresse com gestão.<strong> Digitalize a experiência do seu paciente.</strong></h1>
+                <h1 className='tituloContainerPrimeiroTexto'>Ganhe mais consultas e diminua o estresse com gestão.<strong> Digitalize a experiência do seu paciente.</strong></h1>
                 <p>Todas as ferramentas que você precisa para digitalizar seu trabalho e aumentar seus resultados em apenas uma plataforma. Ganhe mais pacientes, com menos esforço.</p>
                 <div className='containerForm'>
                     <FormEnvio

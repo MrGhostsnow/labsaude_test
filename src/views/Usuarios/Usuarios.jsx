@@ -14,7 +14,7 @@ function Usuarios() {
         <div className='containerPaginaTopo'>
             <section className='containerPrimeiroTexto'>
                 <h3>O futuro da saúde no seu bolso</h3>
-                <h1>Saúde quando, onde e como você quiser. Melhore seu bem estar sem filas e com descontos exclusivos pelo seu celular.</h1>
+                <h1 className='tituloContainerPrimeiroTexto'>Saúde quando, onde e como você quiser. Melhore seu bem estar sem filas e com descontos exclusivos pelo seu celular.</h1>
                 <p>Uma rede credenciada de médicos, dentistas, psícologos e muito mais.<br></br>Disponíveis para sua equipe, quando, onde e como ela quiser. Tudo em uma assinatura que cabe no seu orçamento.</p>
                 <div className='containerForm'>
                     <FormEnvio
@@ -31,7 +31,7 @@ function Usuarios() {
         </div>
         <CardsMotivos/>
         <ComoFunciona
-        h1='Começando a usar Lab Saúde::'
+        h1='Começando a usar Lab Saúde:'
         titulo1='Crie seu plano personalizado'
         titulo2='Comece a usar HOJE mesmo!'
         texto1='Entraremos em contato para você montar seu plano a partir de R$18/mês e conferir quais os melhores profissionais e descontos para você.'

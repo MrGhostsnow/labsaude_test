@@ -41,3 +41,22 @@ footer{
 .infoFooter span{
     margin-bottom: 0.5em;
 }
+
+@media screen and (max-width: 920px){
+    footer{
+        flex-direction: column;
+        width: auto;
+        gap: 0;
+        margin-top: 2em;
+    }
+    .containerFooter img{
+        width: 70%;
+    }
+    .infoFooter h2{
+        display: none;
+    }
+    .infoFooter span{
+        font-size: 12px;
+        margin-top: 2em;
+    }
+}

@@ -5,7 +5,11 @@
     align-items: center;
 }
 
-@media screen and (max-width: 800px){
+.sectionCardBeneficios h1{
+    margin-bottom: 1.4em;
+}
+
+@media screen and (max-width: 920px){
     .sectionCardBeneficios{
         margin-bottom: 5em;
         height: 87em;
@@ -19,9 +23,8 @@
     color: rgb(66, 79, 255);
 }
 
-.sectionCardBeneficios h1{
-    margin-bottom: 1.4em;
-}
+
+
 
 .containerCardBeneficios{
     display: flex;
@@ -44,7 +47,7 @@
     height: 38em;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .group2{
         width: auto;
     }
@@ -92,9 +95,27 @@
     display: flex;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .textoeImagem img{
         display: none;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .textoeImagem img{
+        display: none;
+    }
+    .group1{
+        height: 52em;
+    }
+    .group2{
+        height: 52em;
+    }
+    .cardBeneficio2 p{
+        width: 250px;
+    }
+    .cardBeneficio{
+        margin-bottom: 8em;
     }
 }
 
@@ -106,7 +127,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .imgCardBeneficios{
         display: none;
     }

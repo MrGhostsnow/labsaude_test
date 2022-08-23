@@ -2,7 +2,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
     .containerPaginaTopo {
         justify-content: center;
         align-items: center;
@@ -39,7 +39,7 @@
     font-size: large;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
     .containerPrimeiroTexto {
         align-items: center;
         width: 80%;
@@ -81,7 +81,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .containerForm{
         flex-direction: column;
     }
@@ -109,7 +109,7 @@
     font-size: small;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .btnFormEnvio{
         margin: 1em 0 0 0;
     }
@@ -124,7 +124,7 @@
     margin-bottom: 5em;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .containerBeneficios{
         width: auto;
     }
@@ -148,7 +148,7 @@
     text-align: center;
     font-size: larger;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .textocontainerBeneficios{
         width: auto;
     }
@@ -162,7 +162,7 @@
     margin-top: 8em;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .grupoBeneficios{
         flex-direction: column;
     }
@@ -225,7 +225,7 @@
     margin-left: 17em;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .containerFormTel{
         width: auto;
         flex-direction: row;
@@ -258,9 +258,8 @@
     margin: 1em 0 1em 0;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .containerFormTel h3{
-        border: 2px solid red;
         justify-content: center;
         align-items: center; 
         text-align: center;   
@@ -293,7 +292,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .formTel{
         flex-direction: column;
     }

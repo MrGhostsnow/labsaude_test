@@ -7,11 +7,6 @@
     margin: 8em 0 10em 14em;
 }
 
-/* .containerComoFunciona h1{
-    display: flex;
-    text-align: center;
-} */
-
 
 
 
@@ -19,7 +14,7 @@
     color:rgb(66, 79, 255);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .containerComoFunciona{
         margin: 2em 0 2em 5em;
     }
@@ -38,13 +33,14 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .cardComoFunciona{
         flex-direction: column;
         height: 50em;
         text-align: center;
     }
 }
+
 
 .passoapasso{
     display: flex;
@@ -53,7 +49,7 @@
     width: 70%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .passoapasso{
         flex-direction: column;
         margin-top: 1em;
@@ -74,7 +70,7 @@
     box-shadow: inset -10px -10px 10px rgba(46, 46, 44, 0.664), inset 3px 3px 5px #FFF;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .passoapasso span{
         margin: 0;
     }
@@ -88,4 +84,16 @@
 
 .btnComoFunciona{
     margin-top: 1.5em;
+}
+
+@media screen and (max-width: 1280px){
+    .cardComoFunciona{
+        height: 48em;
+    }
+    .containerComoFunciona{
+        margin: 8em 5em 8em 5em;
+    }
+    .containerComoFunciona h1{
+        width: 10em;
+    }
 }

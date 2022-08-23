@@ -52,8 +52,14 @@
     margin-right: -10em;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     .btnNavBar{
         display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .btnNavBar{
+        margin-left: -12em;
     }
 }

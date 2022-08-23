@@ -90,3 +90,48 @@
     margin-top: 2em;
     color: black;
 }
+
+@media screen and (max-width: 920px){
+    .containerbtnsServiço{
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .btnClicado{
+        margin: 0;
+    }
+    .btnFormEnvio{
+        margin: 0;
+    }
+    .containerCardsServiços{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerPrimeiroTexto h1{
+        text-align: center;
+        margin-bottom: 0.5em;
+        width: 150%;
+    }
+    .containerCardsServiços img{
+        width: 90%;
+        margin-top: 1em;
+    }
+    .btnFormEnvio{
+        margin-top: 0.8em;
+    }
+    .grupoCardsComoUsar{
+        flex-direction: column;
+    }
+    .cardComoUsar{
+        width: 70%;
+    }
+    .cardComoUsar img{
+        width: 120%;
+    }
+    .cardComoUsar h3{
+        width: 90%;
+    }
+    .containerComoUsar{
+        text-align: center;
+    }
+}
