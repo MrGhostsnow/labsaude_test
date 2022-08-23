@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/labsaude_test/static/css/main.45641ff6.css",
+    "main.js": "/labsaude_test/static/js/main.11f46dac.js",
+    "index.html": "/labsaude_test/index.html",
+    "main.45641ff6.css.map": "/labsaude_test/static/css/main.45641ff6.css.map",
+    "main.11f46dac.js.map": "/labsaude_test/static/js/main.11f46dac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45641ff6.css",
+    "static/js/main.11f46dac.js"
+  ]
+}
